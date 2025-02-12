@@ -44,11 +44,11 @@ async function loadGames() {
 
         // Add game request button at the top
         const requestButton = document.createElement('button');
-        requestButton.textContent = 'REQUEST GAME';
+        requestButton.textContent = 'REQUEST GAME COMING SOON';
         requestButton.className = 'request-button';
         requestButton.style.border = '1px solid #00aa00';
         requestButton.onclick = () => {
-            window.open('https://forms.gle/yFJFUKovwR6idX8j6', '_blank');
+            window.open('https://google.com', '_blank');
         };
         gameContainer.appendChild(requestButton);
 
