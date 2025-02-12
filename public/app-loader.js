@@ -41,11 +41,11 @@ async function loadApps() {
 
         // Add app request button at the top
         const requestButton = document.createElement('button');
-        requestButton.textContent = 'REQUEST APP';
+        requestButton.textContent = 'Nothing';
         requestButton.className = 'request-button';
         requestButton.style.border = '1px solid #00aa00';
         requestButton.onclick = () => {
-            window.open('https://forms.gle/UdCazmZMD4dcd7uz7', '_blank');
+            window.open('https://google.com', '_blank');
         };
         appContainer.appendChild(requestButton);
 
